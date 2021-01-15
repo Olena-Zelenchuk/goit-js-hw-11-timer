@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.timer {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #212121;
+  border-radius: 2px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 20px;
+}
